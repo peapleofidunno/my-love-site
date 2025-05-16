@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffe6e6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #cc3366;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #cc3366;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #b32d5f;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}

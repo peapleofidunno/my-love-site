@@ -1,0 +1,14 @@
+function loginUser(event) {
+  event.preventDefault();
+
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+
+  // Basic hardcoded login
+  if (username === "mylove" && password === "forever") {
+    alert("Welcome back, my love!");
+    window.location.href = "index.html"; // redirect or show more private content
+  } else {
+    document.getElementById("loginMessage").textContent = "Invalid username or password.";
+  }
+}
